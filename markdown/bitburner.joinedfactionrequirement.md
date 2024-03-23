@@ -16,6 +16,6 @@ interface JoinedFactionRequirement
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [joinedFaction](./bitburner.joinedfactionrequirement.joinedfaction.md) |  | [FactionName](./bitburner.factionname.md) |  |
+|  [joinedFaction](./bitburner.joinedfactionrequirement.joinedfaction.md) |  | string |  |
 |  [type](./bitburner.joinedfactionrequirement.type.md) |  | "joinedFaction" |  |
 
