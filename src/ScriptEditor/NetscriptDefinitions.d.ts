@@ -8714,14 +8714,6 @@ interface JobTitleRequirement {
   jobTitle: JobName;
 }
 /**
- * Player must have joined this faction.
- * @public
- */
-interface JoinedFactionRequirement {
-  type: "joinedFaction";
-  joinedFaction: string;
-}
-/**
  * Player must be located in this city.
  * @public
  */
@@ -8845,7 +8837,6 @@ export type PlayerRequirement =
   | EmployedByRequirement
   | CompanyReputationRequirement
   | JobTitleRequirement
-  | JoinedFactionRequirement
   | CityRequirement
   | LocationRequirement
   | BackdoorRequirement

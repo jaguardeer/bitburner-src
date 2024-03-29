@@ -92,7 +92,6 @@
 |  [InvestmentOffer](./bitburner.investmentoffer.md) | Corporation investment offer |
 |  [IStyleSettings](./bitburner.istylesettings.md) | Interface Styles |
 |  [JobTitleRequirement](./bitburner.jobtitlerequirement.md) | Player must have this job title at some company. |
-|  [JoinedFactionRequirement](./bitburner.joinedfactionrequirement.md) | Player must have joined this faction. |
 |  [KarmaRequiremennt](./bitburner.karmarequiremennt.md) | Player must have less than this much karma. |
 |  [LocationRequirement](./bitburner.locationrequirement.md) | Player must be at this location within a city. |
 |  [Material](./bitburner.material.md) | Material in a warehouse |
