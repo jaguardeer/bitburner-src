@@ -2077,8 +2077,6 @@ export interface Singularity {
    */
   getFactionInviteRequirements(faction: string): PlayerRequirement[];
 
-  getFactionEnemies(faction: string): string[];
-
   /**
    * Get a list of enemies of a faction.
    * @remarks
