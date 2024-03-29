@@ -4,6 +4,8 @@
 
 ## Singularity.getFactionEnemies() method
 
+Get a list of enemies of a faction.
+
 **Signature:**
 
 ```typescript
@@ -14,9 +16,17 @@ getFactionEnemies(faction: string): string[];
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  faction | string |  |
+|  faction | string | Name of faction. |
 
 **Returns:**
 
 string\[\]
+
+Array containing the names of all enemies of the faction.
+
+## Remarks
+
+RAM cost: 3 GB \* 16/4/1
+
+Returns an array containing the names (as strings) of all factions that are enemies of the specified faction.
 
