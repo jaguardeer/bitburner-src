@@ -2077,6 +2077,22 @@ export interface Singularity {
    */
   getFactionInviteRequirements(faction: string): PlayerRequirement[];
 
+  getFactionEnemies(faction: string): string[];
+
+  /**
+   * Get a list of enemies of a faction.
+   * @remarks
+   * RAM cost: 3 GB * 16/4/1
+   *
+   *
+   * Returns an array containing the names (as strings) of all factions
+   * that are enemies of the specified faction.
+   *
+   * @param faction - Name of faction.
+   * @returns Array containing the names of all enemies of the faction.
+   */
+  getFactionEnemies(faction: string): string[];
+
   /**
    * List all current faction invitations.
    * @remarks
